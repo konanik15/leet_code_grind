@@ -3,7 +3,7 @@ package hard;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 class Daily3108Test {
 
@@ -22,7 +22,6 @@ class Daily3108Test {
         var query = new int[][]{{0, 3}, {3, 4}};
 
         // when, then
-
         assertArrayEquals(new int[]{1, -1}, daily3108.minimumCost(n, edges, query));
     }
 
@@ -34,7 +33,6 @@ class Daily3108Test {
         var query = new int[][]{{2, 1}, {1, 2}, {0, 1}, {2, 0}, {0, 2}, {1, 2}, {3, 2}, {0, 3}, {2, 1}, {1, 2}};
 
         // when, then
-
         assertArrayEquals(new int[]{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}, daily3108.minimumCost(n, edges, query));
     }
 }

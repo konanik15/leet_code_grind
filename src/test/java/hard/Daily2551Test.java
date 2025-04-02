@@ -21,7 +21,6 @@ class Daily2551Test {
         var k = 2;
 
         // when, then
-
         assertEquals(4, daily2551.putMarbles(weights, k));
     }
 
@@ -32,7 +31,6 @@ class Daily2551Test {
         var k = 3;
 
         // when, then
-
         assertEquals(4, daily2551.putMarbles(weights, k));
     }
 
@@ -43,7 +41,6 @@ class Daily2551Test {
         var k = 3;
 
         // when, then
-
         assertEquals(3, daily2551.putMarbles(weights, k));
     }
 
@@ -54,7 +51,6 @@ class Daily2551Test {
         var k = 2;
 
         // when, then
-
         assertEquals(0, daily2551.putMarbles(weights, k));
     }
 }
