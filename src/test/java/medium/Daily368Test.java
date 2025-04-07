@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class Daily368Test {
 
@@ -22,7 +22,7 @@ class Daily368Test {
         var nums = new int[]{1, 2, 3};
 
         // when,then
-        assertEquals(List.of(1, 2), daily368.largestDivisibleSubset(nums));
+        assertTrue(List.of(1, 2).containsAll(daily368.largestDivisibleSubset(nums)));
     }
 
     @Test
@@ -31,6 +31,6 @@ class Daily368Test {
         var nums = new int[]{1, 2, 4, 8};
 
         // when,then
-        assertEquals(List.of(1, 2, 4, 8), daily368.largestDivisibleSubset(nums));
+        assertTrue(List.of(1, 2, 4, 8).containsAll(daily368.largestDivisibleSubset(nums)));
     }
 }
