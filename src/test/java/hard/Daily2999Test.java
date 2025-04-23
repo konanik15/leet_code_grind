@@ -15,7 +15,7 @@ class Daily2999Test {
     }
 
     @Test
-    void numberOfPowerfulInt5() {
+    void numberOfPowerfulInt6() {
         // given
         var start = 1;
         var finish = 6500;
@@ -23,11 +23,11 @@ class Daily2999Test {
         var s = "124";
 
         // when, then
-        assertEquals(5, daily2999.numberOfPowerfulInt(start, finish, limit, s));
+        assertEquals(6, daily2999.numberOfPowerfulInt(start, finish, limit, s));
     }
 
     @Test
-    void numberOfPowerfulInt2() {
+    void numberOfPowerfulInt14() {
         // given
         var start = 15;
         var finish = 215;
@@ -35,7 +35,7 @@ class Daily2999Test {
         var s = "1";
 
         // when, then
-        assertEquals(2, daily2999.numberOfPowerfulInt(start, finish, limit, s));
+        assertEquals(14, daily2999.numberOfPowerfulInt(start, finish, limit, s));
     }
 
     @Test
