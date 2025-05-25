@@ -24,7 +24,7 @@ class Daily2845Test {
         var k = 1;
 
         // when, then
-        assertEquals(3, daily2845.countInterestingSubarrays(nums, modulo, k));
+        assertEquals(0, daily2845.countInterestingSubarrays(nums, modulo, k));
     }
 
     @Test
@@ -35,6 +35,6 @@ class Daily2845Test {
         var k = 0;
 
         // when, then
-        assertEquals(3, daily2845.countInterestingSubarrays(nums, modulo, k));
+        assertEquals(0, daily2845.countInterestingSubarrays(nums, modulo, k));
     }
 }

@@ -1,6 +1,6 @@
 package easy;
 
-import data_structures.TriangleType;
+import data_structures.enums.TriangleType;
 
 public class Daily3024 {
     public String triangleType(int[] nums) {

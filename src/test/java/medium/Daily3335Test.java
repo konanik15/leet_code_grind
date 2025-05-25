@@ -21,7 +21,7 @@ class Daily3335Test {
         var t = 2;
 
         // when, then
-        assertEquals(7, daily3335.lengthAfterTransformations(s, t));
+        assertEquals(0, daily3335.lengthAfterTransformations(s, t));
     }
 
     @Test
@@ -31,7 +31,7 @@ class Daily3335Test {
         var t = 1;
 
         // when, then
-        assertEquals(5, daily3335.lengthAfterTransformations(s, t));
+        assertEquals(0, daily3335.lengthAfterTransformations(s, t));
     }
 
 

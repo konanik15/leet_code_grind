@@ -29,7 +29,7 @@ class Daily3341Test {
         var moveTime = new int[][]{{0, 0, 0}, {0, 0, 0}};
 
         // when, then
-        assertEquals(6, daily3341.minTimeToReach(moveTime));
+        assertEquals(3, daily3341.minTimeToReach(moveTime));
     }
 
     @Test
@@ -38,6 +38,6 @@ class Daily3341Test {
         var moveTime = new int[][]{{0, 1}, {1, 2}};
 
         // when, then
-        assertEquals(6, daily3341.minTimeToReach(moveTime));
+        assertEquals(3, daily3341.minTimeToReach(moveTime));
     }
 }
