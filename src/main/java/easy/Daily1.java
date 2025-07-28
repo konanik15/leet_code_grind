@@ -13,6 +13,6 @@ public class Daily1 {
                 map.put(nums[i], i);
             }
         }
-        return new int[]{map.get(target - nums[nums.length - 1]), nums.length - 1};
+        throw new IllegalArgumentException("No solution found"); // (1)
     }
 }
